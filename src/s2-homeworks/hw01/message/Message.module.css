@@ -6,6 +6,7 @@
     color: white;
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 .imageAndText img {
@@ -15,6 +16,7 @@
 }
 
 .text {
+    max-width: 50%;
     padding:  3px 25px 8px 13px;
     background: #0066CC;
     box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
@@ -26,6 +28,7 @@
 }
 
 .name {
+    text-align: end;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -38,6 +41,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .time {
