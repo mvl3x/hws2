@@ -1,5 +1,9 @@
 .buttonsContainer {
+    max-width: 35%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .editableSpanContainer {
+    margin-bottom: 15px;
 }
