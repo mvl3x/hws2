@@ -1,4 +1,9 @@
 .radio {
+    min-width: 20px;
+    min-height: 20px;
+    vertical-align: middle;
+    margin: 8px;
+    cursor: pointer;
 }
 
 .radio::before {
@@ -12,4 +17,6 @@
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
 }
