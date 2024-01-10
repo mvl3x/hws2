@@ -2,21 +2,43 @@
 }
 
 .responseContainer {
+    display: flex;
+    margin-top: 50px;
 }
 
 .imageContainer {
+    width: 50%;
 }
 
 .image {
+
 }
 
 .textContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 }
 
 .code {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
 .text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .info {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
