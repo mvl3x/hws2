@@ -35,10 +35,9 @@ const HW14 = () => {
         getTechs(value)
             .then((res) => {
                 // делает студент
-
+                setLoading(false)
                 // сохранить пришедшие данные
-
-                //
+                if(res) setTechs(res.data.techs)
             })
     }
 
