@@ -1,7 +1,9 @@
 .tech {
-
+    width: 372px;
 }
 
 .loading {
-
+    color: #4D4D4D;
+    font-size: 14px;
+    text-align: right;
 }
